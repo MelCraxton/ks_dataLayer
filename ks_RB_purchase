@@ -1,0 +1,21 @@
+dataLayer.push({
+  'event': 'ks_RB_purchase',
+  'ecommerce': {
+    'purchase': {
+      'transaction_id': 'T12345',
+      'affiliation': 'Rental Booking',
+      'value': '70.92',      
+      'currency': 'GBP',
+      'coupon': 'RENTER60',
+      'items': [{
+        'item_name': 'Johnny's Toyota Prius Plus', // Name or ID is required.
+        'item_id': '5e89f790-493b-4c5d-8f82-daa981e42f95',
+        'price': '70.92',        
+        'item_category': 'Bristol',
+        'item_variant': 'Toyota Prius Plus',
+        'quantity': 1,
+        'item_coupon': 'RENTER60' 
+      }]
+    }
+  }
+});
