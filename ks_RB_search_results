@@ -1,6 +1,6 @@
 // Measure product views / impressions
 dataLayer.push({
-  'event': 'ks_search_results_list',
+  'event': 'ks_RB_search_results',
   'ecommerce': {
     'items': [
      {
