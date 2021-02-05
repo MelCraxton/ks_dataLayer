@@ -1,0 +1,21 @@
+/**
+ * A function to handle a click on a checkout button.
+ */
+function onCheckout() {
+  dataLayer.push({
+    'event': 'ks_RB_checkout',
+    'ecommerce': {
+      'items': [{
+        'item_name': 'Johnny's Toyota Prius Plus', // Name or ID is required.
+        'item_id': '5e89f790-493b-4c5d-8f82-daa981e42f95',
+        'price': '70.92',        
+        'item_category': 'Bristol',
+        'item_category_2': 'BS3 411',        
+        'item_variant': 'Toyota Prius Plus',
+        'item_list_name': 'Search Results',       
+        'index': 1,
+        'quantity': '1'
+      }]
+    }
+  });
+}
