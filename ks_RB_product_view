@@ -1,6 +1,6 @@
 // Measure a view of product details. This example assumes the detail view occurs on pageload,
 dataLayer.push({
-  'event': 'ks_product_view',
+  'event': 'ks_RB_product_view',
   'ecommerce': {
     'items': [{
       'item_name': 'Johnny's Toyota Prius Plus', // Name or ID is required.
