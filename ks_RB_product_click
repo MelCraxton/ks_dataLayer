@@ -4,7 +4,7 @@
  */
 function(productObj) {
   dataLayer.push({
-    'event': 'ks_product_click',
+    'event': 'ks_RB_product_click',
     'ecommerce': {
       'items': [{
         'item_name': productObj.name, // Name or ID is required.
