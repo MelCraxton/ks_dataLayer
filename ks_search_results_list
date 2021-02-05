@@ -1,0 +1,31 @@
+// Measure product views / impressions
+dataLayer.push({
+  'event': 'ks_search_results_list',
+  'ecommerce': {
+    'items': [
+     {
+       'item_name': 'Johnny's Toyota Prius Plus',       // Name or ID is required.
+       'item_id': '5e89f790-493b-4c5d-8f82-daa981e42f95',
+       'price': '70.92',       
+       'item_category': 'Bristol',
+       'item_category_2': 'BS3 4LL',
+       'item_category_3': 'Shirts',
+       'item_category_4': 'Tshirts',
+       'item_variant': 'Toyota Prius Plus',
+       'item_list_name': 'Search Results',       
+       'index': 1,
+       'quantity': '1'
+     },
+     {
+       'item_name': 'Citroen Berlingo Multispace',
+       'item_id': 'dc7244fa-d5f5-46d8-a76c-4add5c05d350',
+       'price': '70.92',       
+       'item_category': 'Bristol',
+       'item_category_2': 'BS2 9QE',
+       'item_variant': 'Hilary's Citroen Berlingo Multispace',
+       'item_list_name': 'Search Results',       
+       'index': 2,
+       'quantity': '1'
+     }]
+  }
+});
